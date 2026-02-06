@@ -240,7 +240,7 @@ function HowToBuy() {
         <div className="htb-steps-col">
           <div className="step-card">
             <div className="step-number">1</div>
-            <span className="step-icon"><IoWallet size={32} /></span>
+            <span className="step-icon"><IoWallet size={36} /></span>
             <div className="step-content">
               <h3>Get a Wallet</h3>
               <p>Download Phantom or Solflare wallet. Fund it with SOL from any exchange.</p>
@@ -248,7 +248,7 @@ function HowToBuy() {
           </div>
           <div className="step-card">
             <div className="step-number">2</div>
-            <span className="step-icon"><IoSwapHorizontal size={32} /></span>
+            <span className="step-icon"><IoSwapHorizontal size={36} /></span>
             <div className="step-content">
               <h3>Swap on Jupiter</h3>
               <p>Use Jupiter to swap your SOL for $BER. Paste the contract address and swap.</p>
@@ -256,7 +256,7 @@ function HowToBuy() {
           </div>
           <div className="step-card">
             <div className="step-number">3</div>
-            <span className="step-icon"><IoHeart size={32} /></span>
+            <span className="step-icon"><IoHeart size={36} /></span>
             <div className="step-content">
               <h3>HODL & Vibe</h3>
               <p>Welcome to the ber fam. Hold tight, share memes, and enjoy the ride.</p>

@@ -475,36 +475,34 @@
 
 .htb-two-col {
   display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem;
   align-items: stretch;
 }
 
 .htb-steps-col {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
   justify-content: center;
+  padding-left: 2rem;
 }
 
 .step-card {
   background: var(--bg-card);
   border: 1px solid rgba(96, 165, 250, 0.1);
   border-radius: 16px;
-  padding: 1.5rem;
+  padding: 1.75rem 2rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 0.75rem;
+  align-items: flex-start;
+  gap: 1.25rem;
   position: relative;
   transition: all 0.3s;
-  aspect-ratio: 1;
+  flex: 1;
 }
 
 .step-card:hover {
-  transform: translateY(-5px);
+  transform: translateX(5px);
   border-color: rgba(34, 211, 238, 0.3);
   box-shadow: 0 4px 20px rgba(96, 165, 250, 0.1);
 }
@@ -513,9 +511,9 @@
   background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
   color: var(--bg-dark);
   font-family: 'Fredoka One', cursive;
-  font-size: 0.85rem;
-  min-width: 32px;
-  height: 32px;
+  font-size: 1rem;
+  min-width: 38px;
+  height: 38px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -531,15 +529,15 @@
 }
 
 .step-content h3 {
-  font-size: 1.05rem;
-  margin-bottom: 0.35rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
   color: var(--snow-white);
 }
 
 .step-content p {
   color: var(--text-secondary);
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .htb-jupiter-col {
@@ -568,9 +566,6 @@
     text-align: center;
   }
 
-  .step-card {
-    aspect-ratio: auto;
-  }
 }
 
 /* ===== MEME GALLERY ===== */
