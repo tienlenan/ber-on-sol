@@ -201,7 +201,7 @@ function HowToBuy() {
 
   useEffect(() => {
     if (document.getElementById('jupiter-terminal-script')) {
-      setWidgetLoaded(true)
+      if (window.Jupiter) setWidgetLoaded(true)
       return
     }
     const script = document.createElement('script')

@@ -556,6 +556,15 @@
     grid-template-columns: 1fr;
   }
 
+  .htb-steps-col {
+    padding-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .step-card {
+    width: 100%;
+  }
+
   .htb-header {
     flex-direction: column;
     text-align: center;
@@ -566,6 +575,10 @@
     text-align: center;
   }
 
+  .how-to-buy {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /* ===== MEME GALLERY ===== */
@@ -714,7 +727,12 @@
 
   .community-links {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+  }
+
+  .community-card {
+    width: 100%;
+    min-width: unset;
   }
 
   .meme-phrases {
